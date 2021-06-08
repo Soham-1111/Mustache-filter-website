@@ -1,0 +1,40 @@
+.heading{
+    font-size: 25px;
+}
+
+#line{
+    width:50%;
+}
+#pose{
+    color:green;
+}
+
+.footer_div{
+    color:turquoise;
+    background-color: white;
+    bottom: 0;
+    position:fixed;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#click:hover{
+    background-color: tomato;
+}
+
+canvas{
+
+    margin-top:50px;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow:1px 1px 38px yellow;}
+}
