@@ -1,11 +1,11 @@
 noseX=0;
 noseY=0;
 
-function preload(){
 img= loadImage("https://lh3.googleusercontent.com/proxy/1RWdPoicndSW5dskZJx_th-BMrt6CFOzuZJCmuanptLtXfmQLt1ady3GJClsFCOxjEaL7CfRmhRdH2GIBwNCAPe__o3C1DTCjS822FTD7-IrWv0f4HGV");
 
-}
+function preload(){    
 
+}
 function draw(){
 image(video,0,0,340,300);
 image(img,noseX,noseY,175,100);
