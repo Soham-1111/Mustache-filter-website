@@ -1,10 +1,10 @@
 noseX=0;
 noseY=0;
 
-img= loadImage("https://lh3.googleusercontent.com/proxy/1RWdPoicndSW5dskZJx_th-BMrt6CFOzuZJCmuanptLtXfmQLt1ady3GJClsFCOxjEaL7CfRmhRdH2GIBwNCAPe__o3C1DTCjS822FTD7-IrWv0f4HGV");
+img=""; 
 
 function preload(){    
-
+img= loadImage("https://i.postimg.cc/3x3QzSGq/m.png"); 
 }
 function draw(){
 image(video,0,0,340,300);
